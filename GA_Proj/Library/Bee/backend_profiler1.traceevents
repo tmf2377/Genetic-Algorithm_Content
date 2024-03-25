@@ -1,477 +1,477 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1710735768505199, "dur":612, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768505814, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1710735768505845, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1710735768505855, "dur":175, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1710735768506042, "dur":301, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768506343, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768535942, "dur":159, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536101, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536108, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536110, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536114, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536115, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536118, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536119, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536122, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536123, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536126, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536127, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536130, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536131, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536135, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536136, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536139, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536139, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536143, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536143, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536146, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536147, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536150, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536151, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536154, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536163, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768536169, "dur":783, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1710735768506349, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768506350, "dur":2964, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768509318, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1710735768509320, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768509382, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1710735768509385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768510244, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1710735768512004, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1710735768512081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768512631, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1710735768513551, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1710735768513675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768513919, "dur":11888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1710735768525853, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710735768525898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768525902, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710735768527667, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710735768527852, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768527855, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1710735768529921, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1710735768530263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1710735768530266, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1710735768531724, "dur":4226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768506364, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768506364, "dur":2956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768509321, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1710735768509623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768512003, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1710735768513274, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1710735768513322, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768513325, "dur":6214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1710735768519584, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768519613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768519615, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768520871, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768520921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768520924, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768522495, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768522539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768522542, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768523873, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768523906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768523908, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768524994, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768525028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768525031, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768526406, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768526447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768526450, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768528215, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768528363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1710735768528366, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1710735768531867, "dur":4078, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768506386, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768506387, "dur":2932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768509319, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1710735768509469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768511156, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1710735768512902, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1710735768513004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768513008, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1710735768514710, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768514741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768514744, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768515897, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768515935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768515938, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768516955, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768516997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768517000, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768517927, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768517960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768517963, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768519151, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768519184, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768519187, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768520207, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768520245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768520248, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768521470, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768521528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768521531, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768522944, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768522979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768522981, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768524498, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768524533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768524536, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768525676, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768525712, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768525715, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768526844, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768526897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768526901, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1710735768529856, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1710735768530205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1710735768530263, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1710735768531797, "dur":4142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768506357, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768506357, "dur":2965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768509323, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1710735768509685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768512214, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1710735768513376, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj.exe" }}
-,{ "pid":12345, "tid":4, "ts":1710735768513406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768513408, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj.exe" }}
-,{ "pid":12345, "tid":4, "ts":1710735768514360, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768514411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768514599, "dur":773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768515399, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768515434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768515437, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768516332, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768516379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768516382, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768517539, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768517576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768517579, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768518651, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768518692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768518696, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768519665, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768519691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768519694, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768521037, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768521065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768521068, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768522294, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768522325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768522328, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768523236, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768523285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768523289, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768524358, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768524676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768524680, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768525964, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768526013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768526017, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768527425, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768527471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768527511, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":4, "ts":1710735768529169, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1710735768529238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768529293, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":4, "ts":1710735768530800, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1710735768530827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1710735768530830, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":4, "ts":1710735768532118, "dur":3822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768506378, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768506378, "dur":2939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768509319, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1710735768509445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768511016, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1710735768512841, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1710735768512932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768512936, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1710735768514911, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768514951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768514954, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768516067, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768516106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768516109, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768517373, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768517660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768517664, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768518711, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768518740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768518743, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768519846, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768519883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768519885, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768521443, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768521507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768521510, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768522733, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768522774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768522777, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768523892, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768523921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768523924, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768525235, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768525281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768525285, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768528145, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768528233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768528236, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1710735768530299, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1710735768530485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1710735768530488, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/level0" }}
-,{ "pid":12345, "tid":5, "ts":1710735768531920, "dur":4024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768506401, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768506401, "dur":2917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768509319, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1710735768509482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768511158, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1710735768513033, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768513126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768513516, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768517290, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768517362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768517365, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768518717, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768518753, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768518757, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768519860, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768519903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768519907, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768521340, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768521384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768521387, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768522589, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768522636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768522639, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768524450, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768524882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768524885, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768526378, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768526423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768526426, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768527785, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768527877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768527880, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1710735768529272, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1710735768529306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1710735768529309, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1710735768531186, "dur":4756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768506413, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768506413, "dur":2902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768509319, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1710735768509426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768511206, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1710735768512609, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1710735768512695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768512699, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1710735768513803, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768513835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768514023, "dur":730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768514783, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768514835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768514857, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768515847, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768515894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768515915, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768517012, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768517055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768517059, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768517885, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768517918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768517921, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768519004, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768519035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768519038, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768520223, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768520267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768520270, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768521473, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768521517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768521520, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768522654, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768522694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768522696, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768523884, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768523914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768523917, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768525333, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768525371, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768525374, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768526757, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768526848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768526850, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1710735768529326, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1710735768529372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768529375, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1710735768530855, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1710735768530949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1710735768530952, "dur":1125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1710735768532103, "dur":3850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768506426, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768506426, "dur":2897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768509323, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1710735768509804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768511010, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1710735768512898, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1710735768513013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768513017, "dur":1853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1710735768514924, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768514969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768514972, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768516030, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768516070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768516075, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768517160, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768517199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768517202, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768518370, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768518404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768518407, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768519312, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768519341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768519343, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768520905, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768520981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768520986, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768522419, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768522450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768522453, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768523609, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768523646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768523649, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768524980, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768525331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768525334, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768526489, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768526526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768526529, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768528223, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768528296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768528300, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1710735768530032, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1710735768530090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1710735768530099, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1710735768531738, "dur":4201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710735768506437, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710735768506437, "dur":2884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710735768509321, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1710735768509550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710735768511704, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1710735768513084, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1710735768513178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710735768513546, "dur":16606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1710735768530290, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/level0.resS" }}
-,{ "pid":12345, "tid":9, "ts":1710735768530472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1710735768530475, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/level0.resS" }}
-,{ "pid":12345, "tid":9, "ts":1710735768531978, "dur":3965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710735768506449, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710735768506449, "dur":2867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710735768509318, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1710735768509512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710735768511187, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1710735768513088, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710735768513183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1710735768513186, "dur":22714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1710735768535927, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":10, "ts":1710735768535928, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768506466, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768506466, "dur":2854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768509320, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1710735768509522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768511672, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1710735768512901, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1710735768512994, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768512997, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1710735768514974, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768515015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768515018, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768516121, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768516159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768516162, "dur":1209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768517423, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768517479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768517482, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768518446, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768518485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768518489, "dur":953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768519476, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768519532, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768519535, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768520844, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768520915, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768520918, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768522408, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768522441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768522444, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768523558, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768523605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768523608, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768524766, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768524941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768524945, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768526114, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768526221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768526224, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768528107, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768528219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768528222, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":11, "ts":1710735768530197, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1710735768530309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1710735768530312, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1710735768531731, "dur":4210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768506478, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768506478, "dur":2836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768509319, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1710735768509477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768511199, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":12, "ts":1710735768512467, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1710735768512536, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768512579, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1710735768513790, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768513829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768514016, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768514923, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768514962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768514965, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768516099, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768516132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768516136, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768517210, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768517267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768517270, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768518373, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768518426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768518430, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768519317, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768519356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768519360, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768520458, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768520483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768520485, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768521699, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768521733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768521736, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768522925, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768522959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768522962, "dur":1081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768524068, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768524274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768524277, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768525278, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768525315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768525318, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768526741, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768526784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768526787, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768528435, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768528590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768528647, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":12, "ts":1710735768530494, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":12, "ts":1710735768530572, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1710735768530579, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":12, "ts":1710735768532061, "dur":3883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1710735768537662, "dur":904, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1711342132399264, "dur":847, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132400115, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1711342132400159, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1711342132400171, "dur":199, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1711342132400382, "dur":409, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132400791, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132426927, "dur":153, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427080, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427097, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427100, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427107, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427108, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427114, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427115, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427119, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427120, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427125, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427125, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427129, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427130, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427134, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427135, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427138, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427139, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427142, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427143, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427147, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427148, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427152, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427153, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427157, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427162, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132427178, "dur":1158, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1711342132400556, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132400795, "dur":2842, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132403642, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1711342132403645, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132403688, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1711342132403691, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132404453, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1711342132406213, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1711342132406256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132406748, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1711342132407847, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132407893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132407958, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132412859, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132412991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132412995, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132414410, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132414452, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132414456, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132416017, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132416056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132416059, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132417817, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132417868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132417872, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132419346, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132419393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132419397, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132420934, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132420990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132420994, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132422313, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132422345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132422348, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132423560, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132423596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1711342132423600, "dur":2871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1711342132426522, "dur":402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132400572, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132400801, "dur":2841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132403642, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1711342132403837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132406968, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1711342132408262, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132408303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132408860, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132411560, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132411689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132411693, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132413202, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132413247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132413252, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132414750, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132414817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132414820, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132416176, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132416235, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132416238, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132417894, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132417927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132417931, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132419441, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132419469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132419473, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132421133, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132421182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132421191, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132422954, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132422996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132422999, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1711342132424366, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1711342132424459, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1711342132424463, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1711342132426321, "dur":604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132400567, "dur":230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132400797, "dur":2849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132403647, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1711342132403828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132406696, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1711342132408165, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1711342132408232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132408236, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1711342132410686, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132410918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132411394, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132413328, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132413642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132413645, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132415021, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132415083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132415091, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132416623, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132416670, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132416673, "dur":1673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132418380, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132418442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132418446, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132420132, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132420241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132420245, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132421557, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132421585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132421588, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132423142, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132423176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132423179, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1711342132424742, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1711342132424849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1711342132424852, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1711342132426309, "dur":615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132400590, "dur":214, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132400804, "dur":2839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132403643, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1711342132403805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132405596, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1711342132406578, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1711342132406627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132406831, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1711342132408567, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132408634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132409079, "dur":2827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132411966, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132412010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132412014, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132413869, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132413907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132413910, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132415119, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132415179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132415199, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132416667, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132416712, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132416715, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132418263, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132418305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132418308, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132419815, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132419854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132419857, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132421362, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132421397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132421401, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132423110, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132423141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132423144, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1711342132425115, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1711342132425160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1711342132425163, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1711342132426707, "dur":230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132400601, "dur":206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132400807, "dur":2834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132403642, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1711342132403827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132406356, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1711342132407898, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132407961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132407966, "dur":10192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132418200, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132418239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132418243, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132419657, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132419707, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132419711, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132421307, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132421348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132421352, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132422953, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132422988, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132422990, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1711342132425182, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1711342132425372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1711342132425375, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1711342132426756, "dur":183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132400619, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132400810, "dur":2828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132403642, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1711342132403699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132405199, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1711342132406362, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1711342132406411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132406611, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1711342132408258, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1711342132408297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132408779, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1711342132412370, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132412476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132412480, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132414114, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132414188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132414192, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132415825, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132415953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132415957, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132417164, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132417219, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132417223, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132418713, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132418764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132418767, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132420350, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132420628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132420632, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132421829, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132421890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132421894, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132423392, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132423425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132423427, "dur":1459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1711342132424988, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1711342132425110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1711342132425113, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1711342132426746, "dur":183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132400630, "dur":183, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132400813, "dur":2836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132403649, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1711342132403788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132405461, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1711342132406663, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1711342132406736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132406873, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1711342132408609, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132408711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132409075, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132411865, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132411947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132411953, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132413917, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132414021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132414023, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132415528, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132415569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132415574, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132417160, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132417214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132417218, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132418683, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132418734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132418738, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132420509, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132420557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132420561, "dur":1188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132421821, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132421880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132421883, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132423282, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132423317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132423321, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1711342132424945, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1711342132425040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1711342132425053, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1711342132426912, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1711342132426913, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132400641, "dur":174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132400815, "dur":2830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132403646, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1711342132403823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132405894, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1711342132406919, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1711342132407007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132407015, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1711342132408324, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132408379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132409033, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132412311, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132412415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132412462, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132414438, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132414520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132414524, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132416068, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132416110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132416114, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132417725, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132417772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132417775, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132419040, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132419100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132419104, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132420684, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132420992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132420995, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132422710, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132422750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132422771, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1711342132424192, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1711342132424262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1711342132424266, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1711342132426505, "dur":421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132400656, "dur":162, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132400818, "dur":2829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132403648, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1711342132403812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132405646, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1711342132406950, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132407042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132407324, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132408712, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132408776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132409108, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132412146, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132412267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132412271, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132413964, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132414004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132414008, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132415647, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132415692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132415696, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132417187, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132417247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132417250, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132418840, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132418883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132418887, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132420476, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132420926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132420951, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132422832, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132422878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132422882, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1711342132424757, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1711342132424799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1711342132424802, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1711342132426604, "dur":319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132400668, "dur":153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132400821, "dur":2823, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132403645, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1711342132403839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132407761, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1711342132408756, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132408796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132409216, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132411802, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132411921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132411926, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132413326, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132413399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132413403, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132415366, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132415405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132415408, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132416785, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132416821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132416825, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132418384, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132418443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132418447, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132419980, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132420015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132420041, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132421417, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132421445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132421464, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132423576, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132423612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132423615, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1711342132425154, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1711342132425186, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1711342132425188, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1711342132426778, "dur":149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132400681, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132400824, "dur":2814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132403642, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1711342132403761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132405602, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1711342132406701, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1711342132406783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132406787, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1711342132408327, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132408425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132408810, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132411422, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132411522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132411526, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132413100, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132413147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132413151, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132414636, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132414685, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132414689, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132416308, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132416347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132416350, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132417921, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132417950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132417954, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132419213, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132419288, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132419308, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132420654, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132420819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132420823, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132421938, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132421970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132421974, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1711342132423606, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1711342132423646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132423703, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1711342132424737, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1711342132424860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1711342132424863, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1711342132426490, "dur":437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132400693, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132400826, "dur":2818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132403646, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1711342132403744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132405215, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1711342132406307, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1711342132406358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132406554, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1711342132408202, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj.exe" }}
+,{ "pid":12345, "tid":12, "ts":1711342132408248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132408251, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj.exe" }}
+,{ "pid":12345, "tid":12, "ts":1711342132410292, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132410330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132411073, "dur":1402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132412656, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132412838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132412843, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132414603, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132414647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132414650, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132416268, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132416307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132416310, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132417784, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132417856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132417860, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132419695, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132419740, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132419743, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132421070, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132421109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132421113, "dur":2437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132423580, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132423720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132423723, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1711342132425129, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1711342132425173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1711342132425176, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1711342132426728, "dur":198, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1711342132429248, "dur":972, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

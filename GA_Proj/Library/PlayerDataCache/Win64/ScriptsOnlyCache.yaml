@@ -86,6 +86,12 @@ ScriptsOnlyBuild:
     methodName: Restart
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
+    methodName: Explain_1
+  - assembly: Assembly-CSharp
+    fullTypeName: BallGenerator
+    methodName: FileSave
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
     methodName: Restart
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
@@ -285,7 +291,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: c0d08e84bf5711b2e56660d672f36ea8
+      Hash: 125e37f2d89aa5083e4ac2a07640f033
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BallGenerator
@@ -645,7 +651,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 6d434b2c42cddfc0652f34faf098b61e
+      Hash: e6b80904f5320e502761f2af0337f25f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -976,4 +982,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/XRLab_PINK/Desktop/GA_Build/GA_Proj.exe
+  playerPath: C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj.exe

@@ -15,6 +15,10 @@ public class GameManager : MonoBehaviour
     public GameObject etcPanels;
     bool isEtcOn;
 
+    public GameObject explainPanel1;
+    public GameObject explainPanel2;
+    public GameObject explainPanel3;
+
     void Start()
     {
         Time.timeScale = 0;
@@ -23,6 +27,8 @@ public class GameManager : MonoBehaviour
         clearPanel.SetActive(false);
         etcPanels.SetActive(false);
         isEtcOn = false;
+
+        explainPanel1.SetActive(false);
     }
 
     public void ProjStart()
@@ -31,21 +37,6 @@ public class GameManager : MonoBehaviour
         startPanel.SetActive(false);
         playPanel.SetActive(true);
 
-        /*
-        // 게임 시작 시 호출되는 함수
-        int encodingLength = ballGenerator.stringLength;
-        string filePath = Application.dataPath + "/../EncodingLength_" + encodingLength + ".txt";
-
-        Debug.Log("File saved to: " + filePath);
-
-        if (!File.Exists(filePath))
-        {
-            using (StreamWriter sw = File.CreateText(filePath))
-            {
-                sw.WriteLine("Encoding Length: " + encodingLength);
-                // 필요한 기본 정보를 여기에 추가합니다.
-            }
-        }*/
     }
 
     public void EtcPanels()
@@ -77,5 +68,23 @@ public class GameManager : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    //------------------------------------------------------------------
+
+    public void Explain_1()
+    {
+        // 패널의 현재 활성화 상태를 체크하고 상태를 반대로 변경
+        explainPanel1.SetActive(!explainPanel1.activeSelf);
+    }
+
+    public void Explain_2()
+    {
+        explainPanel2.SetActive(!explainPanel2.activeSelf);
+    }
+
+    public void Explain_3()
+    {
+        explainPanel3.SetActive(!explainPanel3.activeSelf);
     }
 }

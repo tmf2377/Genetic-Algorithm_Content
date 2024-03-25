@@ -40,6 +40,10 @@ public class BallGenerator : MonoBehaviour
     private Vector3 screenPoint;
     private Vector3 offset;
 
+    public int OptimaTime = 0;
+    public int SelfSelect = 0;
+    public bool autoSelect;
+
     void Start()
     {
         InitializeDropdown();
@@ -137,7 +141,7 @@ public class BallGenerator : MonoBehaviour
     void InitializeReplacementDropdown() // 인구 대체 방법 초기화
     {
         replacementDropdown.ClearOptions();
-        List<string> options = new List<string> { "Both parent", "One of parent" };
+        List<string> options = new List<string> { "Both parents", "One of parent" };
         replacementDropdown.AddOptions(options);
     }
 
@@ -167,6 +171,8 @@ public class BallGenerator : MonoBehaviour
         }
         MutationCounts = 0;
         MutationCountsText.text = "" + MutationCounts;
+        OptimaTime = numberOfBalls;
+        Debug.Log("Time : " + OptimaTime);
     }
 
     void DropdownValueChanged(Dropdown dropdown) // Dropdown 값 변경 시 인구 생성
@@ -274,6 +280,7 @@ public class BallGenerator : MonoBehaviour
         if (fitness == 1.0f)
         {
             GameClear(); // 최적해를 찾았을 때 호출할 메서드
+            FileSave();
         }
 
         return fitness;
@@ -348,6 +355,7 @@ public class BallGenerator : MonoBehaviour
     {
         // 룰렛휠 선택이 시작될 때 패널 활성화
         closePanel.SetActive(true);
+        autoSelect = true;
 
         // 버튼을 눌렀을 때의 최소 세대 저장
         int currentMinGeneration = GetMinGeneration();
@@ -377,6 +385,7 @@ public class BallGenerator : MonoBehaviour
 
         // 룰렛휠 선택이 끝날 때 패널 비활성화
         closePanel.SetActive(false);
+        autoSelect = false;
     }
 
     bool GetMinGenerationBallsSelected(int currentMinGeneration) // 최신 세대의 모든 공이 선택되었는지 확인하는 함수
@@ -503,14 +512,23 @@ public class BallGenerator : MonoBehaviour
         List<GameObject> selectedBalls = GetSelectedBalls();
         if (selectedBalls.Count == 2 && AllBallsSameGeneration(selectedBalls, GetMinGeneration()))
         {
+            if(autoSelect == false)
+            {
+                SelfSelect = SelfSelect + 2;
+                Debug.Log("SelfSelect: " + SelfSelect);
+            }
             string selectedMethod = replacementDropdown.options[replacementDropdown.value].text;
             switch (selectedMethod)
             {
-                case "Both parent":
+                case "Both parents":
                     PerformStandardReplacement(selectedBalls[0], selectedBalls[1], crossoverSelection);
+                    OptimaTime = OptimaTime + 2;
+                    Debug.Log("Time : " + OptimaTime);
                     break;
                 case "One of parent":
                     PerformReplacementWithWorst(selectedBalls[0], selectedBalls[1], crossoverSelection);
+                    OptimaTime = OptimaTime + 2;
+                    Debug.Log("Time : " + OptimaTime);
                     break;
             }
             // 자식 생성 후 모든 공의 선택 상태 해제
@@ -643,7 +661,39 @@ public class BallGenerator : MonoBehaviour
     }
     // ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 결과 저장 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
+    public void FileSave()
+    {
+        // 게임 시작 시 호출되는 함수
+        int encodingLength = stringLength;
+        // 파일 경로 설정 오류 수정
+        string filePath = Application.dataPath + "/../RecordTime" + encodingLength + ".txt";
 
+        Debug.Log("File saved to: " + filePath);
+        int minGeneration = GetMinGeneration();
+
+        // 파일이 없는 경우 새로 생성하고, 필요한 정보를 씁니다.
+        if (!File.Exists(filePath))
+        {
+            using (StreamWriter sw = File.CreateText(filePath))
+            {
+                sw.WriteLine("Encoding Length: " + encodingLength);
+                sw.WriteLine("Total Generation: " + minGeneration);
+                sw.WriteLine("Time to find Optimal Solution: " + OptimaTime);
+                sw.WriteLine("Direct Selected balls: " + SelfSelect);
+            }
+        }
+        else
+        {
+            // 파일이 이미 존재하는 경우, 파일의 끝에 정보를 추가합니다.
+            using (StreamWriter sw = File.AppendText(filePath))
+            {
+                sw.WriteLine(" ");
+                sw.WriteLine("Total Generation: " + minGeneration);
+                sw.WriteLine("Time to find Optimal Solution: " + OptimaTime);
+                sw.WriteLine("Direct Selected balls: " + SelfSelect);
+            }
+        }
+    }
 
 }
 
