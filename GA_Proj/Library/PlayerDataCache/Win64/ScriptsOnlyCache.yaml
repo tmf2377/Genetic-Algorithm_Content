@@ -77,10 +77,16 @@ ScriptsOnlyBuild:
     methodName: EtcPanels
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
+    methodName: Explain_3
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
     methodName: ProjStart
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Quit
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Explain_2
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Restart
@@ -88,11 +94,20 @@ ScriptsOnlyBuild:
     fullTypeName: GameManager
     methodName: Explain_1
   - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Explain_4
+  - assembly: Assembly-CSharp
     fullTypeName: BallGenerator
     methodName: FileSave
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
+    methodName: Explain_6
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
     methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: Explain_5
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: Continue
@@ -651,7 +666,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: e6b80904f5320e502761f2af0337f25f
+      Hash: afec2ab53ffa836e605dd0e5a83ccd10
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -982,4 +997,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/XRLab_PINK/Genetic-Algorithm_Content/GA_Bulid/GA_Proj.exe
+  playerPath: C:/Users/XRLab_PINK/Desktop/GA_LastBuild/GA_Proj.exe

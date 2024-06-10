@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     public GameObject explainPanel1;
     public GameObject explainPanel2;
     public GameObject explainPanel3;
+    public GameObject explainPanel4;
+    public GameObject explainPanel5;
+    public GameObject explainPanel6;
 
     void Start()
     {
@@ -29,6 +32,11 @@ public class GameManager : MonoBehaviour
         isEtcOn = false;
 
         explainPanel1.SetActive(false);
+        explainPanel2.SetActive(false);
+        explainPanel3.SetActive(false);
+        explainPanel4.SetActive(false);
+        explainPanel5.SetActive(false);
+        explainPanel6.SetActive(false);
     }
 
     public void ProjStart()
@@ -86,5 +94,20 @@ public class GameManager : MonoBehaviour
     public void Explain_3()
     {
         explainPanel3.SetActive(!explainPanel3.activeSelf);
+    }
+
+    public void Explain_4()
+    {
+        explainPanel4.SetActive(!explainPanel4.activeSelf);
+    }
+
+    public void Explain_5()
+    {
+        explainPanel5.SetActive(!explainPanel5.activeSelf);
+    }
+
+    public void Explain_6()
+    {
+        explainPanel6.SetActive(!explainPanel6.activeSelf);
     }
 }
